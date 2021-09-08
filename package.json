@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/jkga/caa.git"
+    "url": "git+https://github.com/jkga/katalogo.git"
   },
   "keywords": [
     "katalogo",
     "epilyido",
     "surname"
   ],
-  "author": "jkga",
+  "author": "johnkennethgibasabella@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jkga/caa/issues"
+    "url": "https://github.com/jkga/katalogo/issues"
   },
-  "homepage": "https://github.com/jkga/caa#readme"
+  "homepage": "https://github.com/jkga/katalogo#readme"
 }
