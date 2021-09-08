@@ -11,7 +11,7 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 
 | Alphabet | Total |
 | ----------- | ----------- |
-| [A](./src/contents/a.json)       |     2         |
+| [A](./src/contents/a.json)       |     1         |
 | [B](./src/contents/b.json)       |     1         | 
 | [C](./src/contents/c.json)       |     1         |
 | [D](./src/contents/d.json)       |     1         | 
