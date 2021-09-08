@@ -1,7 +1,7 @@
 # Catalogo Alfabetico de Apellidos
 Alpabetikong katalogo ng mga apelyido   
 
-![caa_logo](./src/assets/img/logo.png)
+![caa_logo](./src/assets/img/logo-teal.png)
 
 The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of Surnames; Filipino: Alpabetikong Katalogo ng mga apelyido) is a book of surnames in the Philippines and other islands of Spanish East Indies published in the mid-19th century. This was in response to a Spanish colonial decree establishing the distribution of Spanish family names and local surnames among colonial subjects who did not have a prior surname. It is also the reason why Filipinos share some of the same surnames as many Spaniards.   
 [-wikipedia](https://en.wikipedia.org/wiki/Cat%C3%A1logo_alfab%C3%A9tico_de_apellidos)   
