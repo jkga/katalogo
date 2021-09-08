@@ -11,10 +11,10 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 
 | Alphabet | Total |
 | ----------- | ----------- |
-| [A](./src/contents/a.json)       |     2         |
-| [B](./src/contents/b.json)       |     1         | 
-| [C](./src/contents/c.json)       |     1         |
-| [D](./src/contents/d.json)       |     1         | 
+| [A](./src/contents/a.json)       |     <!--display-raw-a-->         |
+| [B](./src/contents/b.json)       |     <!--display-raw-b-->         | 
+| [C](./src/contents/c.json)       |     <!--display-raw-c-->         |
+| [D](./src/contents/d.json)       |     <!--display-raw-d-->         | 
 | [E](./src/contents/e.json)       |     <!--display-raw-e-->         | 
 | [F](./src/contents/b.json)       |     <!--display-raw-f-->         | 
 | [G](./src/contents/b.json)       |     <!--display-raw-g-->         | 

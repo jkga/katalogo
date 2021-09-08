@@ -19,7 +19,11 @@ This document contains the instructions on adding, deleting, and modifing record
 ```
 - In a scenario of multiple `PRs` has been submitted to alter any record, the **first correct** `PR` will be merged 
 - Only **one** action in `PR` is allowed. You **MUST NOT** *add, delete and alter* record at the same time. This will help us to make this repository maintainable
-- Refrain from inserting multiple items in between surnames. If possible, please add in squence (first 10, first 5, etc...)   
+- Refrain from inserting multiple items in between surnames. If possible, please add in squence (first 10, first 5, etc...)
+- Run the `test` command first to detect any error
+```npm
+  npm test
+```
 
 ## C. Issues
 - Always search first for possible duplicate issues

@@ -1,0 +1,24 @@
+{
+  "name": "katalogo",
+  "version": "0.1.0",
+  "description": "Alpabetikong katalogo ng mga apelyido",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-json-modules ./src/scripts/checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/jkga/caa.git"
+  },
+  "keywords": [
+    "katalogo",
+    "epilyido",
+    "surname"
+  ],
+  "author": "jkga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkga/caa/issues"
+  },
+  "homepage": "https://github.com/jkga/caa#readme"
+}
