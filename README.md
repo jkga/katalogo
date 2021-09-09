@@ -7,7 +7,7 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 [-wikipedia](https://en.wikipedia.org/wiki/Cat%C3%A1logo_alfab%C3%A9tico_de_apellidos)   
 
 ## Table of Contents  
-> List of available names listed on the book owned by the [Ayala Museum Library](https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos/60)
+> List of available names listed on the book owned by the [Ayala Museum Library](https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos)
 
 | Alphabet | Total |
 | ----------- | ----------- |
@@ -50,4 +50,4 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 
 > Initial data were scrapped from her posted article
 
-- https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos/60
+- https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos
