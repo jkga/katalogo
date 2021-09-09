@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { readFile, writeFile } = require('fs')
 const chalk = require('chalk')
-const ignoredFile = ['i', 'k', 'w', 'x']
+const ignoredFile = ['w', 'x']
 
 const readJSONFile = (fileName) => {
   return import(`../contents/${fileName}.json`).then(res => {
