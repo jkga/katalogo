@@ -34,4 +34,4 @@ Description: Add the following records: Ayno, Ayno, and Ayadi
 
 
 ## Developer's Note
-**Catalogo Alfabetico de Apellidos** is a very long list of old surnames and we cannot add everything overnight. Some of the records are a bit blurred and really hard to read, so the developers might be having trouble in adding those records and minor typos is unavoidable.
+**Catalogo Alfabetico de Apellidos** is a very long list of old surnames and we cannot add everything overnight. Some of the records are a bit blurred and really hard to read, so the developers might be having trouble in adding those records and minor typos are unavoidable.

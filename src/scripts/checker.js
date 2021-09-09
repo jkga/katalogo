@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 const { readFile, writeFile } = require('fs')
+const chalk = require('chalk')
+const ignoredFile = ['i', 'k', 'w', 'x']
 
 const readJSONFile = (fileName) => {
   return import(`../contents/${fileName}.json`).then(res => {
@@ -18,6 +20,11 @@ const readAllFiles = async () => {
 
   for(x = 0 ; x < 26; x++) {
     let prom = await new Promise((resolve, reject) => {
+      if(ignoredFile.indexOf(String.fromCharCode(97 + x)) != -1) {
+        let obj = {}
+        obj[String.fromCharCode(97 + x)] = 0
+        return resolve(obj)
+      }
       resolve(readJSONFile(String.fromCharCode(97 + x)))
     })
     promisedFiles.push(prom)
@@ -31,15 +38,15 @@ const readAllFiles = async () => {
     console.log("=========================")
     console.log("|     Results           |")
     console.log("=========================")
-    console.log(`Checked: ${res.length}/${x}`)
-    console.log(`Passed: ${fulfilledPromises.length}/${x}`)
-    console.log(`Failed: ${failedPromises.length}`)
+    console.log(chalk.gray(`Checked: ${res.length - ignoredFile.length}/${x-ignoredFile.length}`))
+    console.log(chalk.greenBright(`Passed: ${fulfilledPromises.length < ignoredFile.length ? fulfilledPromises.length : (fulfilledPromises.length - ignoredFile.length)}/${x-ignoredFile.length}`))
+    console.log(chalk.redBright(`Failed: ${failedPromises.length}`))
 
     // Stop when something undesirable things happened
     if(failedPromises.length) {
-      console.log("============================================================")
-      console.log('WARNING: Unable to proceed. Please check all the files first')
-      console.log("============================================================")
+      console.log(chalk.redBright("============================================================"))
+      console.log(chalk.bgRedBright(chalk.black("WARNING: Unable to proceed. Please check all the files first")))
+      console.log(chalk.redBright("============================================================"))
       return 0
     }
 
@@ -56,9 +63,9 @@ const readAllFiles = async () => {
       // write template
       writeFile(__dirname + '/../../readme.md', nData, 'utf8', function (err) {
         if (err) return console.log(err)
-        console.log("==================================================")
-        console.log('Writing to README.md is successful!')
-        console.log("==================================================")
+        console.log(chalk.greenBright("=================================================="))
+        console.log(chalk.bgGreenBright(chalk.black("Writing to README.md is successful!")))
+        console.log(chalk.greenBright("=================================================="))
       })
     }))
   }).catch(err => {
