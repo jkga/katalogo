@@ -6,7 +6,7 @@ Alpabetikong katalogo ng mga apelyido
 The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of Surnames; Filipino: Alpabetikong Katalogo ng mga apelyido) is a book of surnames in the Philippines and other islands of Spanish East Indies published in the mid-19th century. This was in response to a Spanish colonial decree establishing the distribution of Spanish family names and local surnames among colonial subjects who did not have a prior surname. It is also the reason why Filipinos share some of the same surnames as many Spaniards.   
 [-wikipedia](https://en.wikipedia.org/wiki/Cat%C3%A1logo_alfab%C3%A9tico_de_apellidos)   
 
-**Table of Contents**   
+## Table of Contents  
 > List of available names listed on the book owned by the [Ayala Museum Library](https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos/60)
 
 | Alphabet | Total |
@@ -19,9 +19,9 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 | [F](./src/contents/f.json)       |     <!--display-raw-f-->         | 
 | [G](./src/contents/g.json)       |     <!--display-raw-g-->         | 
 | [H](./src/contents/h.json)       |     <!--display-raw-h-->         | 
-| **I** - **MISSING PAGE**         |                                  | 
+| **I** - **MISSING PAGE**         |     <!--display-raw-i-->         | 
 | [J](./src/contents/j.json)       |     <!--display-raw-j-->         | 
-| **K** - **MISSING PAGE**         |                                  | 
+| **K** - **MISSING PAGE**         |     <!--display-raw-k-->         | 
 | [L](./src/contents/l.json)       |     <!--display-raw-l-->         | 
 | [M](./src/contents/m.json)       |     <!--display-raw-m-->         | 
 | [N](./src/contents/n.json)       |     <!--display-raw-n-->         | 
@@ -43,3 +43,11 @@ The **Catálogo alfabético de apellidos** (English: Alphabetical Catalogue of S
 > Please read the [guidelines](./CONTRIBUTING.md) carefully before adding, deleting, or modifying any record.   
 
 > :notebook: This document is system generated.
+
+## References
+- https://angkangpilipino.wordpress.com/2011/03/25/traditional-filipino-surnames-2/
+> Written by Mona Magno-Veluz 
+
+> Initial data were scrapped from her posted article
+
+- https://issuu.com/filipinasheritagelibrary/docs/catalogo_alfabetico_de_apellidos/60
